@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    font-family: 'Clash Display', sans-serif;
+}body{
+    width: 100vw;
+    height: 100vh;
+    background-color:#101415;
+   
+}
+.navbar{
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+    display: flex;
+    font-family: 'Clash Display', sans-serif;
+   align-items: center;
+   justify-content: space-between;
+   box-shadow: 0 0 10px #39FF14;
+    
+}a {
+    text-decoration: none;
+    color:  black;
+    font-family: "Inter",sans-serif;
+}nav li{
+    list-style-type: none;
+    padding: 15px;
+    
+}nav ul{
+    display: flex;
+    
+}nav a:hover {
+    color:#39FF14;
+    text-decoration: underline;
+}.contact-btn{
+   padding: 0.5rem;  
+   border-radius:30px;
+   border: 2px black solid;
+   margin-right: 10px;
+}.contact-btn:hover{
+    background-color: #39FF14;
+}.hello{
+    width: 100%;
+   display: flex;
+   
+}#home{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    justify-content:center ;
+}.intro{
+    font-family: "inter",sans-serif;
+    width: 60vw;
+    margin: 20px;
+}.hire-btn,.download-btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: white;
+    font-family: "Inter",sans-serif;
+}.hire-btn:hover,.download-btn:hover{
+    background-color: #39FF14;
+}.resume{
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:768px) {
+    
+    .navbar li{
+        display: none;
+    }.logo-name{
+        font-size: large !important;
+        width: 75%;
+    }.hire-btn,.download-btn{
+        width: 100px;
+        font-family: "Inter",sans-serif;
+    }.contact-btn{
+        width: 100px;
+    }
+}
