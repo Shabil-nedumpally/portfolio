@@ -4,7 +4,7 @@
     font-family: 'Clash Display', sans-serif;
     
 }body{
-    max-width: 100%;
+    width: 100%;
     height: 100%;
     background-color:#101415;
     overflow-x: hidden;
@@ -50,17 +50,17 @@
 }#home{
     display: flex;
     flex-direction: column;
-    max-width: 100%;
-    min-height: 500px;
+    width: 100%;
+    height: 100%;
     justify-content:center ;
 }.intro{
     font-family: "inter",sans-serif;
-    max-width: 60%;
+    width: 60%;
     margin-top: 5px;
     font-size: small;
 }.hire-btn,.download-btn{
-    max-width: 150px;
-    min-height: 40px;
+    width: 150px;
+    height: 40px;
     background-color: white;
     font-family: "Inter",sans-serif;
     border: none;
@@ -79,7 +79,7 @@
     text-align: center;
     bottom: 0;
     left: 0;
-    max-width: 100%;
+    width: 100%;
     height: 0;
     z-index: -1;
     transition: 0.9s;
@@ -93,25 +93,26 @@
     border-radius: 50%;
     background-color:#9f9f9f; 
     margin-right: 250px;
-    width: 30px;
-    height: 13rem;
+    width: 480px;
+    height: 230px;
     position: relative;
     overflow: hidden;
     border: 3px solid #39FF14 ;
     border-top:  3px solid rgb(61, 97, 35);
 }.my-image>img{
-    max-width: 150px;
+    width: 220px;
     position: absolute;
     bottom: 1px;
 }.about-me{
     display: flex;
     gap: 30px;
+    margin-top: 200px;
 }.about-text{
     display: flex;
     flex-direction: column;
     margin-left: 15px;
 }.my-image::before{
-    max-width: 150%;
+    width: 150%;
     height: 100%;
     position: absolute;
     background-color: #9f9f9f;
@@ -123,8 +124,8 @@
 
 /* about section */
 #about{
-    max-width: 100%;
-    min-height: 500px;
+    width: 100%;
+    height: 500px;
     text-align: center;
     color: white;
     display: flex;
@@ -133,8 +134,8 @@
     
 }.about-card{
     display: flex;
-    max-width: 75%;
-    min-height: 90%;
+    width: 75%;
+    height: 90%;
    border: 1px solid #39FF14;
     border-radius: 20px;
     margin-top: 10px;
@@ -143,19 +144,19 @@
 
 /* service section */
 #service{
-    max-width: 100%;
-    min-height: 500px;
+    width: 100%;
+    height: 500px;
     background-color: #9f9f9f;
 }
 /*contact section*/
 #contact{
-    max-width: 100%;
-    min-height: 500px;
+    width: 100%;
+    height: 500px;
     
 }
 
 #footer{
-    max-width: 100%;
+    width: 100%;
 
 }
 /* custom scroll bar*/
@@ -211,4 +212,36 @@
         margin-top: 200px;
 
     }
+}
+
+
+
+
+@media (min-width:320px)  {
+     /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+    .contact-btn{
+        width: 120px;
+        margin-right: 0;
+    }
+    .logo-name{
+        width: 100%;
+    }
+    }
+@media (min-width:480px)  { 
+    /* smartphones, Android phones, landscape iPhone */
+    
+ }
+@media (min-width:600px)  { 
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+
+}
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+}
+@media (min-width:1025px) { 
+    /* big landscape tablets, laptops, and desktops */
+
+}
+@media (min-width:1281px) { 
+    /* hi-res laptops and desktops */ 
 }
