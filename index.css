@@ -3,7 +3,7 @@
 * {
     margin: 0;
     font-family: 'Clash Display', sans-serif;
-
+    scroll-behavior: smooth;
 }
 
 body {
@@ -180,19 +180,52 @@ nav a:hover {
 
 .about-card {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 75%;
-    height: 90%;
+    height: 100%;
     border: 1px solid #39FF14;
     border-radius: 20px;
     margin-top: 10px;
+    overflow: hidden;
+}.about-card>p{
+    font-family: "Inter", sans-serif;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 50%;
+    gap: 2rem;
+    margin: auto;
+    align-items: center;
+}.card-one{
+   width: 250px;
+   height: 250px;
+   border: 1px solid #39FF14;
+   box-shadow: 0 0 4px #39FF14;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}.card-one>img{
+    width: auto;
+    height: 25px;
+    
+    
+}.about-card>li{
+    padding: 20px;
 }
 
 
 /* service section */
 #service {
-    width: 100%;
+    max-width: 100%;
     height: 500px;
-    background-color: #9f9f9f;
+    color: white;
+    text-align: center;
+    margin: 40px;
 }
 
 /*contact section*/
@@ -200,6 +233,8 @@ nav a:hover {
     width: 100%;
     height: 500px;
 
+}textarea{
+    resize: none;
 }
 
 #footer {
