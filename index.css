@@ -220,6 +220,13 @@ nav a:hover {
     padding: 20px;
 }
 
+/*bird */
+.bird{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  
+}
 
 /* service section */
 #service {
