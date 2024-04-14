@@ -163,20 +163,20 @@
         <h1>Contact</h1>
         <form >
             <label for="Name">Your Name</label>
-            <input aria-label="Name" type="text" placeholder="Name">
+            <input aria-label="Name" type="text" id="name" placeholder="Name">
                         <label for="email">Your Email</label>
-            <input aria-label="email" type="email" placeholder="Email">
+            <input aria-label="email" type="email"  id="email" placeholder="Email">
 
             <label  for="Phone number">
                 Your Phone Number
             </label>
-            <input   type="number"  aria-label="Phone number" name="mob"  placeholder="+91 7944738858">
+            <input   type="number"  aria-label="Phone number" name="mob" id="mob"  placeholder="+91 7944738858">
             
             <label for="subject">Subject</label>
             <input type="text"  placeholder="subject" id="subject">
             
 <label for="message">Your message</label>
-            <textarea name="message"  cols="30" rows="10">Hi shabil</textarea>
+            <textarea name="message"  cols="30" rows="10" id="message">Hi shabil</textarea>
             
             <input type="submit" >
         </form>
@@ -228,7 +228,13 @@
         </div>
         
     </footer>
+   
 
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="app.js">
+
+    </script>
 </body>
 
 
