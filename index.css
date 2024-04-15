@@ -265,7 +265,7 @@ nav a:hover {
     background-repeat: no-repeat;
     transition: 1s;
 }.bird:hover{
-    background: url("./assets/bubl-robot.gif");
+    background: url("./assets/bubl-robot-skating.gif");
     margin-left: 30px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -300,7 +300,7 @@ nav a:hover {
 }
 textarea{
     height: 100px;
-    
+    font-family: sans-serif;
     resize: none;
 }form>label{
     margin-top: 30px;
@@ -319,7 +319,13 @@ form  .error{
    display: none;
    font-family: sans-serif;
 }
-
+/*submit error*/
+#submit-error{
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-size: 0.6rem;
+    
+}
 
 footer{
     width: 100%;
