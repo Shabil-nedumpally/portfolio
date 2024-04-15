@@ -163,22 +163,26 @@
         <h1>Contact</h1>
         <form >
             <label for="Name">Your Name</label>
-            <input aria-label="Name" type="text" id="name" placeholder="Name">
-                        <label for="email">Your Email</label>
-            <input aria-label="email" type="email"  id="email" placeholder="Email">
+            <input aria-label="Name" type="text" id="name" placeholder="Name" class="error-remove">
+            <span><p id="name-error" class="error"></p></span>
+                     <label for="email">Your Email</label>
+            <input aria-label="email" type="email"  id="email" placeholder="Email" class="error-remove">
+            <span><p id="mail-error" class="error"></p></span>
 
             <label  for="Phone number">
                 Your Phone Number
             </label>
-            <input   type="number"  aria-label="Phone number" name="mob" id="mob"  placeholder="+91 7944738858">
-            
+            <input   type="number"  aria-label="Phone number" name="mob" id="mob"  placeholder="+91 7944738858" autocomplete="off" class="error-remove">
+            <span><p id="mob-error" class="error"></p></span>
             <label for="subject">Subject</label>
-            <input type="text"  placeholder="subject" id="subject">
+            <input type="text"  placeholder="subject" id="subject" class="error-remove">
+            <span><p id="subject-error" class="error"></p></span>
             
 <label for="message">Your message</label>
-            <textarea name="message"  cols="30" rows="10" id="message">Hi shabil</textarea>
+            <textarea name="message"  cols="30" rows="10" id="message" class="error-remove">Hi shabil</textarea>
+            <span><p id="message-error" class="error"></p></span>
             
-            <input type="submit" >
+            <input  id="submit" type="submit" >
         </form>
     </section>
     <footer>

@@ -220,23 +220,7 @@ nav a:hover {
     padding: 20px;
 }
 
-/*bird */
-.bird{
-    position: sticky;
-    width: 150px;
-    height: 150px;
-    top: 100px;
-    background-image: url("./assets/bubl-love-island.gif");
-    background-size: contain;
-    background-repeat: no-repeat;
-    transition: 1s;
-}.bird:hover{
-    background: url("./assets/bubl-robot.gif");
-    margin-left: 30px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    
-}
+
 
 /* service section */
 #service {
@@ -264,12 +248,29 @@ nav a:hover {
     margin-top: 50px;
 }.item p{
     font-style: normal;
-    
     margin-top: 20px;
 }.item i:hover{
     color: #39FF14;
 }
 
+
+/*bird */
+.bird{
+    position: sticky;
+    width: 150px;
+    height: 150px;
+    top: 100px;
+    background-image: url("./assets/bubl-love-island.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 1s;
+}.bird:hover{
+    background: url("./assets/bubl-robot.gif");
+    margin-left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
 /*contact section*/
 #contact {
     width: 100%;
@@ -299,11 +300,26 @@ nav a:hover {
 }
 textarea{
     height: 100px;
-    margin-bottom: 20px;
+    
     resize: none;
 }form>label{
     margin-top: 30px;
+} #submit{
+    background-color: #39FF14;
+    transition: 0.8s;
+    width: 100px;
+}#submit:hover{
+    background:none;
 }
+/*contact error*/
+form  .error{
+   font-size: 10px;
+   color: rgb(255, 9, 9);
+   margin-top: 5px;
+   display: none;
+   font-family: sans-serif;
+}
+
 
 footer{
     width: 100%;
